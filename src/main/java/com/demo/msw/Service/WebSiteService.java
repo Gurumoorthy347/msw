@@ -10,4 +10,6 @@ public interface WebSiteService {
     WebSite saveWebSite(WebSite webSite);
 
     List<WebSite> getAllWebSite();
+
+    List<WebSite> CheckWebSiteStatus();
 }
